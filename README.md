@@ -32,7 +32,8 @@ sudo apt-get -y install docker-ce docker-ce-cli containerd.io
 sudo apt-get -y install docker-compose-plugin
 ```
 
-## Install container-toolkit (https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
+## Install container-toolkit
+Follow https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html
 ```bash
 curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg \
   && curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list | \
